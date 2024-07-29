@@ -1,0 +1,1104 @@
+
+/* Set background color and font family for the whole body */
+a {
+  text-decoration: none;
+}
+.reset-button {
+  background-color: transparent;
+  border-width: 0;
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  padding: 0;
+}
+body {
+  background-color: #f2f2f2;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Css for the Header that positions header fixed to the top of the page */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 170px;
+  width: 100%;
+  z-index: 999;
+}
+
+/* Css stylesheets for  the top navigation bar */
+.top-nav {
+  background-color: #0d0d0d;
+  height: 120px;
+  border-radius: 0px 0px 10px 10px;
+  filter: drop-shadow(0px 4px 4px #00000040);
+}
+
+/* Css stylesheets for the Logo in the header position height and width */
+.HeaderLogo {
+  position: absolute;
+  width: 307px;
+  height: 55px;
+  left: 156px;
+  top: 33px;
+}
+
+/* Css for the account icon container*/
+.myaccount {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 1620px;
+  top: 33px;
+  text-align: center;
+  filter: invert(1);
+  border-radius: 30px;
+}
+/* Css for the cart icon container */
+.mycart {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 1770px;
+  top: 33px;
+  text-align: center;
+
+  filter: invert(1);
+  border-radius: 30px;
+}
+/* Css to align the icon of the cart and account to the center  */
+.Navbaricon {
+  margin-top: 25%;
+}
+
+/* Css for the hover effect on the account and cart icons */
+
+.myaccount:hover {
+  filter: invert(0);
+  background-color: #f2f2f2;
+  transition: 0.3s all;
+}
+.mycart:hover {
+  filter: invert(0);
+  background-color: #f2f2f2;
+  transition: 0.3s all;
+}
+
+/*Css for the Search bar*/
+.search-bar {
+  position: relative;
+  display: inline-block;
+  padding-top: 10px;
+  height: 66px;
+  left: 589px;
+  top: 24px;
+}
+/* Css for the Search Input that accepts the text */
+.search-bar input[type="text"] {
+  width: 859px;
+  padding: 10px 20px 10px 10px;
+  border: none;
+  border-radius: 60px;
+  background-color: #f2f2f2;
+  font-size: 25px;
+  box-shadow: 0 10px 10px #00000033;
+}
+/* Css to disable outline displayed on the search bar while inputting the text */
+.search-bar input[type="text"]:focus {
+  outline: none;
+}
+/* Css for the Submit button which is the Search icon */
+.search-bar button[type="submit"] {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  transform: translateY(-50%);
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+/* Css to convert the mouse cursor to pointer while hovering around the submit button icon */
+.search-bar button[type="submit"]:hover {
+  cursor: pointer;
+}
+/* Css for the bottom navigation bar */
+.bottom-nav {
+  background-color: #262626;
+  position: absolute;
+  height: 60px;
+  top: 110px;
+  left: 0;
+  width: 100%;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  border-radius: 0px 0px 10px 10px;
+}
+
+/* hide bottom layer on scroll uses javascript uses */
+header.scrolled .bottom-nav {
+  display: none;
+}
+/*Css for the flex container of the bottom navigation bar*/
+.fContainer {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  width: 835.99px;
+  height: 21px;
+  left: 600.5px;
+  top: 40%;
+  justify-content: space-evenly;
+}
+
+/* Css for the flex items Blog, About us, Research */
+.fItem {
+  margin: 12px;
+  width: 99.71px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+/* Css for the a href tag of the flex items */
+.fItem a {
+  color: White;
+  text-decoration: none;
+  padding: 10px;
+}
+/*Css for the hover effect of the flex items */
+.fItem:hover {
+  background-color: #8c7c5d;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0 10px 10px #00000033;
+  transition: 0.3s all ease-in-out;
+}
+/* Css for the flex item product only */
+.fItem-1 {
+  margin: 12px;
+  width: 99.71px;
+  height: 21px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+}
+/* Css for the a tag of the flex item product only */
+.fItem-1 a {
+  color: White;
+  text-decoration: none;
+  padding: 10px;
+}
+/* Css for the  */
+
+.fItem-1:hover {
+  background-color: #8c7c5d;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 20px 20px 20px 20px;
+  transition: 0.3s all ease-in-out;
+}
+
+/* Css for dropdown */
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  top: 36px;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border-radius: 0px 0px 20px 20px;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  border-radius: 20px 20px 20px 20px;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: transparent;
+}
+/* Css for the main page contents that displays the content of the webpage */
+.Pagecontent {
+  margin-top: 190px;
+  margin-bottom: 20px;
+  min-width: 100%;
+  min-height: 4800px;
+  background-color: #f2f2f2; /*Please change the background color after use*/
+}
+
+/* Css for the main page contents that displays the content of the webpage product description */
+.productdescriptionpagecontent {
+  margin-top: 190px;
+  margin-bottom: 20px;
+  min-width: 100%;
+  min-height: 600px;
+  background-color: #f2f2f2; /*Please change the background color after use*/
+}
+.Pagecontentaboutus {
+  margin-top: 190px;
+  margin-bottom: 20px;
+  width: 100%;
+  min-height: 4000px;
+  background-color: #f2f2f2; /*Please change the background color after use*/
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  max-width: 1200px;
+}
+
+/* Product image */
+.product-image {
+  background-color: #f2f2f2;
+  flex: 1;
+  margin-right: 40px;
+
+}
+
+.product-image img {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  height: auto;
+  font-size: 30px;
+}
+
+/* Product details */
+.product-details {
+  flex: 1;
+}
+
+.product-details h2 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.product-details .product-discount{
+  font-weight: bold;
+}
+
+
+.product-details .product-price {
+  font-size: 2.5rem;
+}
+.product-details .product-price span{
+  font-size: 1.5rem;
+  text-decoration: line-through;
+
+} 
+
+ 
+
+
+.product-details .product-description {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+/* Product buttons */
+.product-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-buttons button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-to-cart {
+  background-color: #0d0d0d;
+}
+
+.buy-now {
+  background-color: #8c7c5d;
+}.specification-section {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.specification-section h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.specification-table {
+  margin: 0 auto;
+  width: 80%;
+  border-collapse: collapse;
+  border: 2px solid #333;
+}
+
+.specification-table th, .specification-table td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+.specification-table th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+}
+
+.specification-table td {
+  font-size: 16px;
+}
+ 
+
+.customer-reviews {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.customer-reviews h2 {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.review {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.review img {
+  width: 50px;
+  height: 50%px;
+  border-radius: 50%;
+  margin-right: 20px;
+  
+}
+
+.review-author p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.review-content h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.review-content p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.review-rating {
+  display: flex;
+  align-items: center;
+}
+
+.star-icon {
+  font-size: 24px;
+  color: gold;
+  margin-right: 5px;
+}
+.similar-products {
+  text-align: center;
+}
+
+.product-container {
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+}
+
+.product {
+  width:200px;
+  height:350px;
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  
+
+
+}
+
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size:100%;
+  margin-bottom: 10px;
+}
+
+.product-price {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.add-to-cart {
+  padding: 8px 16px;
+  font-size: 14px;
+  background-color: #0d0d0d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+  
+
+
+/* Css for the footer section */
+footer {
+  background-color: #0d0d0d;
+  position: absolute;
+  width: 100%;
+  min-height: 300px;
+  left: 0px;
+}
+
+footer table {
+  padding-top: 20px;
+  height: 200px;
+}
+footer h1 {
+  font-size: 15px;
+  font-weight: 300;
+  color: white;
+}
+footer .footerlogo {
+  text-align: left;
+  padding-top: 10px;
+  padding-left: 150px;
+  padding-right: 150px;
+  width: 80px;
+  transform: scale(0.6);
+}
+ul {
+  list-style-type: none;
+}
+footer a {
+  color: White;
+  text-decoration: none;
+  font-size: small;
+  font-weight: 100;
+}
+footer .footerpagelink {
+  padding-bottom: 5%;
+}
+footer .CustomerService {
+  text-align: center;
+  padding-bottom: 12%;
+  padding-right: 6%;
+}
+footer .Connectwithus {
+  margin-left: 38%;
+}
+footer .Connectwithus ul a {
+  display: flex; /* Display the anchor element as a flex container */
+  align-items: center; /* Center the items vertically */
+  width: 20px;
+}
+footer .Connectwithus ul a p {
+  padding-left: 5px;
+}
+
+#image-slider {
+  width: 600px;
+  height: 350px;
+  margin: 0 auto;
+}
+
+.slides {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.slides li {
+  float: left;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+.slides li.active {
+  display: block;
+}
+
+.controls a {
+  text-decoration: none;
+  display: block;
+  width: 50px;
+  height: 50px;
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.controls a:hover {
+  background-color: #ccc;
+  border-radius: 20px 20px 20px 20px;
+}
+
+/* Css for slider */
+
+.slider_inner {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 10px 10px #00000033;
+}
+
+.slider_inner::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.slider_item {
+  position: relative;
+  float: left;
+  display: none;
+  width: 100%;
+  margin-right: -100%;
+}
+
+/* slide effect */
+.slider_item__active,
+.slider_item__pos_prev,
+.slider_item__pos_next {
+  display: block;
+}
+
+.slider_item__pos_prev {
+  left: -100%;
+}
+
+.slider_item__pos_next {
+  left: 100%;
+}
+
+.slider_item__prev {
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.slider_item__next {
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+/* fade effect */
+.slider__fade .slider_item__pos_prev,
+.slider__fade .slider_item__pos_next {
+  left: 0;
+  opacity: 0;
+}
+
+.slider__fade .slider_item__prev,
+.slider__fade .slider_item__next {
+  transform: none;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slider__fade .slider_item__active.slider_item__prev,
+.slider__fade .slider_item__active.slider_item__next {
+  opacity: 0;
+}
+
+/* Slider image */
+.slider_img {
+  display: block;
+  width: 100%;
+}
+
+.slider_caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  padding: 3rem 4rem;
+  text-align: center;
+  color: #fff;
+  z-index: 1;
+}
+
+.slider_title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.slider_description {
+  margin-top: 0.75rem;
+  line-height: 150%;
+}
+
+.slider_indicator {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  z-index: 1;
+}
+
+.slider_dot {
+  display: block;
+  padding: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.slider_dot__active {
+  background-color: #f2f2f2;
+  cursor: default;
+  pointer-events: none;
+}
+
+.slider_control {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.slider_button {
+  display: block;
+  padding-inline: 1rem;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.375rem;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.25);
+  border: none;
+  cursor: pointer;
+  transition: color 0.25s;
+  z-index: 1;
+}
+
+.slider_button:hover {
+  color: #f2f2f2;
+}
+
+.slider {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1700px;
+  height: 750px;
+  left: 165px;
+  top: 226px;
+  background-color: transparent;
+}
+/* Css for camera display */
+.cameraDisplay {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1700px;
+  height: 1300px;
+  left: 160px;
+  top: 1096px;
+  padding-left: 15px;
+  background-color: white;
+  box-shadow: 0 3px 10px #00000033;
+  border-radius: 20px;
+}
+.cameraDisplay h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+  padding: 40px;
+}
+.cameraDisplay h1 a {
+  color: #0d0d0d;
+}
+/* Css for product cards */
+.card1 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 88px;
+  top: 148px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  
+  border-radius: 20px;
+}
+.card2 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 473px;
+  top: 148px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+ 
+  border-radius: 20px;
+}
+.card3 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 859px;
+  top: 148px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  
+  border-radius: 20px;
+}
+.card4 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 1245px;
+  top: 148px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+
+  border-radius: 20px;
+}
+.card5 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 88px;
+  top: 664px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+ 
+  border-radius: 20px;
+}
+.card6 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 473px;
+  top: 664px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+ 
+  border-radius: 20px;
+}
+.card7 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 859px;
+  top: 664px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  
+  border-radius: 20px;
+}
+.card8 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 1245px;
+  top: 664px;
+
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  border-radius: 20px;
+}
+
+.card9 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 88px;
+  top: 1180px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+ 
+  border-radius: 20px;
+}
+.card10 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 473px;
+  top: 1180px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+ 
+  border-radius: 20px;
+}
+.card11 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 859px;
+  top: 1180px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  
+  border-radius: 20px;
+}
+.card12 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 1245px;
+  top: 1180px;
+
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  border-radius: 20px;
+}
+.card21 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 97px;
+  top: 126px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  
+  border-radius: 20px;
+}
+.card22 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 482px;
+  top: 126px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+ 
+  border-radius: 20px;
+}
+.card23 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 868px;
+  top: 126px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  
+  border-radius: 20px;
+}
+.card24 {
+  position: absolute;
+  width: 335px;
+  height: 463px;
+  left: 1253px;
+  top: 126px;
+  background-color: white;
+  filter: drop-shadow(0px 4px 4px #00000040);
+  border-radius: 20px;
+}
+/* Css for image container */
+.productimagecontainer {
+  position: absolute;
+  width: 298px;
+  height: 298px;
+  left: 18px;
+  top: 19px;
+  
+}
+/* Css to show product description on product card */
+.carddesc{
+  position: absolute;
+  margin-left: 18px;  
+  width: 298px;
+  height: 80px;
+  top: 300px;
+  
+}
+h5{
+  text-align: center;
+  text-decoration: none;
+  color: #000000;
+}
+/* Change color of the price */
+.price{
+  color: #70100f;
+}
+/* CSS for Show more button */
+.showmorecontainer1 {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  left: 751px;
+  top: 1200px;
+}
+.showmorecontainer2 {
+  position: absolute;
+  width: 350px;
+  height: 90px;
+  left: 751px;
+  top: 650px;
+}
+
+.showmorebutton a {
+  position: relative;
+  font-size: 30px;
+  color: white;
+  width: 312px;
+  height: 68px;
+  padding: 10px;
+  background-color: #70100f;
+  border-radius: 20px;
+}
+.showmorebutton a:hover{
+  box-shadow: 0 3px 10px #00000033;
+  transition: ease-in-out 50ms;
+}
+/* Css for the container that displays lens */
+.lensDisplayContainer {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1700px;
+  height: 750px;
+  left: 160px;
+  top: 2486px;
+  box-shadow: 0 3px 10px #00000033;
+  background-color: white;
+  border-radius: 20px;
+}
+.lensDisplayContainer h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+  padding: 40px;
+}
+.lensDisplayContainer h1 a {
+  color: #0d0d0d;
+}
+/* Css for the container that displays accessories */
+.accessoriesDisplayContainer {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1700px;
+  height: 750px;
+  left: 160px;
+  top: 3336px;
+  background-color: white;
+  box-shadow: 0 3px 10px #00000033;
+  border-radius: 20px;
+}
+.accessoriesDisplayContainer h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+  padding: 40px;
+}
+.accessoriesDisplayContainer h1 a {
+  color: #0d0d0d;
+}
+/* Css for the container that displays the featured items */
+.featuredContentsDisplay h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+  padding: 40px;
+}
+.featuredContentsDisplay h1 a {
+  color: #0d0d0d;
+}
+
+.featuredContentsDisplay {
+  box-sizing: border-box;
+  position: absolute;
+  width: 1700px;
+  height: 700px;
+  left: 160px;
+  top: 4186px;
+  background-color: white;
+  box-shadow: 0 3px 10px #00000033;
+  border-radius: 20px;
+}
+/* Css for the add to cart button on the product card */
+.cartbutton .addtoCartButton{
+position: absolute;
+width: 100%;
+height: 45px;
+left: 0px;
+top: 420px;
+font-size: 20px;
+border-radius: 0px 0px 10px 10px;
+background-color: #0d0d0d;
+color: #f2f2f2;
+border: 1px solid #0d0d0d;
+cursor: pointer;
+}
+.addtoCartButton:hover{
+  background-color: grey;
+  border: solid grey;
+}
+.card1:hover, .card2:hover, .card3:hover, .card4:hover, .card5:hover,.card6:hover, .card7:hover,
+ .card8:hover, .card9:hover, .card10:hover,.card11:hover, .card12:hover, .card21:hover, .card22:hover, .card23:hover, .card24:hover{ 
+  transform: scaleX(1.05) scaleY(1.05);
+  background-color: white;
+  transition: ease-in 50ms;
+  z-index: auto;
+}
+
+

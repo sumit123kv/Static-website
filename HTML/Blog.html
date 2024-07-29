@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Discover our blog for the latest articles on camera technologies, photography tips, gear reviews, and industry trends. Enhance your photography skills and stay ahead of the curve with our insightful content.">
+  <title>Blog</title>
+  <!-- External Css Link -->
+  <link rel="stylesheet" href="../Css/Style.css" />
+  <!-- External Javascript link -->
+  <script src="../Javascript/javascript.js"></script>
+  <style>
+    .Pagecontent {
+      margin-top: 190px;
+      margin-bottom: 20px;
+      min-width: 100%;
+      min-height: 2900px;
+      background-color: #f2f2f2;
+      /*Please change the background color after use*/
+    }
+
+    .BlogDisplay {
+      box-sizing: border-box;
+      position: absolute;
+      width: 1700px;
+      height: 2800px;
+      left: 160px;
+      top: 220px;
+      background-color: white;
+      box-shadow: 0 3px 10px #00000033;
+      border-radius: 20px;
+    }
+
+    .BlogDisplay h1 {
+      text-align: center;
+      font-size: 35px;
+      font-weight: bold;
+      margin: auto;
+      color: black;
+      padding: 40px;
+    }
+
+    .BlogDisplay h2 {
+      text-align: center;
+      font-size: 30px;
+      font-weight: bold;
+      margin: auto;
+      padding: 40px;
+    }
+
+    .mainpage {
+      position: absolute;
+      top: 700px;
+      width: 1700px;
+      height: 1020px;
+      left: 0px;
+      background-color: transparent;
+
+    }
+
+    .blogcontainer1 {
+      position: absolute;
+      top: 150px;
+      width: 1400px;
+      height: 424px;
+      left: 136px;
+      border-radius: 20px 20px 20px 20px;
+    }
+
+    .blogcontainer2 {
+      position: absolute;
+      top: 624px;
+      width: 1400px;
+      height: 424px;
+      left: 136px;
+      border-radius: 20px 20px 20px 20px;
+    }
+
+    .blogcontainer3 {
+      position: absolute;
+      top: 1098px;
+      width: 1400px;
+      height: 424px;
+      left: 136px;
+      border-radius: 20px 20px 20px 20px;
+    }
+
+    .blogcontainer4 {
+      position: absolute;
+      top: 1572px;
+      width: 1400px;
+      height: 424px;
+      left: 136px;
+
+      border-radius: 20px 20px 20px 20px;
+    }
+
+    .blogcontainer5 {
+      position: absolute;
+      top: 2046px;
+      width: 1400px;
+      height: 424px;
+      left: 136px;
+      border-radius: 20px 20px 20px 20px;
+    }
+
+    .blogcontainer1:hover,
+    .blogcontainer2:hover,
+    .blogcontainer3:hover,
+    .blogcontainer4:hover,
+    .blogcontainer5:hover {
+
+      box-shadow: 0 3px 10px #00000033;
+      transform: scale(1.01);
+
+    }
+
+    .blogimgcontainerright {
+      overflow: hidden;
+      box-sizing: border-box;
+      position: absolute;
+      width: 700px;
+      height: 424px;
+      left: 700px;
+      background-color: black;
+      border-radius: 0px 20px 20px 0px
+    }
+
+    .blogimgcontainerleft {
+      box-sizing: border-box;
+      overflow: hidden;
+      position: absolute;
+      width: 700px;
+      height: 424px;
+      left: 0px;
+      background-color: transparent;
+      border-radius: 20px 0px 0px 20px;
+    }
+
+    .date {
+      text-decoration: none;
+      color: black;
+      padding-right: 550px;
+
+    }
+
+    .blogimgcontainerleft p {
+      text-decoration: none;
+      color: black;
+    }
+
+
+    .Pagecontent .BlogDisplay p {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    .BlogImageDisplay {
+      position: absolute;
+      min-height: 600px;
+      padding: 30px;
+      border-radius: 20px;
+    }
+
+    /* Styling the H1 of the "Blog" only */
+    .BlogDisplay .BlogImageDisplay h1 {
+      position: absolute;
+      text-align: center;
+      font-size: 70px;
+      font-weight: bold;
+      margin: auto;
+      padding: 40px;
+    }
+
+    .BlogDisplay .BlogImageDisplay img {
+      border-radius: 20px;
+    }
+
+    .blogDescription {
+      position: absolute;
+      width: 500px;
+      height: 130px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Navigation bar for the bottom header-->
+    <nav class="bottom-nav">
+      <div class="fContainer">
+        <div class="fItem-1">
+          <div class="dropdown"><a href="Product.html">Product</a>
+            <button class="dropbtn"></button>
+
+            <div class="dropdown-content">
+              <a href="camera.html">Camera</a>
+              <a href="lens.html">Lens</a>
+              <a href="accessories.html">Accessories</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="fItem"><a href="Blog.html">Blog</a></div>
+        <div class="fItem"><a href="Aboutus.html">About Us</a></div>
+        <div class="fItem"><a href="Research.html">Research</a></div>
+      </div>
+    </nav>
+    <!--Navigation bar for top header-->
+    <nav class="top-nav">
+      <div class="HeaderLogo">
+        <a href="../index.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/Logo.png" alt="CamsKart" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <!--Inline css  Style to Align the Search text-->
+        <input type="text" placeholder="Search Camskart" style="text-align: center; padding-left: 35px" />
+        <!-- The button made to submit for the search products -->
+        <button type="submit">
+          <i class="search">
+            <!-- Search icon added to the search bar -->
+            <img src="../Images/LogoIcons/Search.png" alt="Search Icon" />
+          </i>
+        </button>
+      </div>
+      <!-- Division for the account login and signup icon -->
+      <div class="myaccount">
+        <a href="#myaccount.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/account.svg" alt="MyAccount" class="Navbaricon" />
+        </a>
+      </div>
+      <!-- Div class for the cart icon -->
+      <div class="mycart">
+        <a href="#mycart.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/cart.svg" alt="Cart" class="Navbaricon" />
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="Pagecontent">
+
+    <div class="BlogDisplay">
+      <div class="BlogImageDisplay">
+        <!-- Blog heading -->
+        <img src="../Images/Blogs/ab.jpg" alt="Blog">
+
+      </div>
+      <!-- Blog main page -->
+      <div class="mainpage">
+        <!-- Some text related to introduction to  blog -->
+        <div class="blogDescription">
+          <h1 style="color: black;">Featured Blog</h1>
+        </div>
+        <a href="cameratechnology.html">
+          <div class="blogcontainer1">
+            <div class="blogimgcontainerleft">
+              <div>
+                <p class="date">05.18.23</p>
+                <h1>Exploring the Camera Technology: Unveiling the Wonders Behind Your Captured Moments</h1>
+                <p>The development of camera technology over time has been tremendous, transforming the way we
+                  capture and consume visual content. Cameras have improved in accessibility, versatility, and
+                  sophistication from analog to digital photography...</p>
+              </div>
+            </div>
+            <div class="blogimgcontainerright">
+              <img src="../Images/Blogs/about technology.jpeg" alt="">
+            </div>
+          </div>
+        </a>
+        <a href="#blog2.html">
+          <div class="blogcontainer2">
+            <div class="blogimgcontainerleft">
+              <div>
+                <p class="date">05.17.23</p>
+                <h1>Choosing your perfect camera: A Complete Guide for Buying Camera </h1>
+                <p>There are a number of things to think about when purchasing a camera to make sure you select the
+                  model that best suits your needs and interests. A general purchase guide is provided here to assist
+                  you...</p>
+              </div>
+            </div>
+            <div class="blogimgcontainerright">
+              <img src="../Images/Blogs/Camera buying guide.jpg" alt="camera buying guide">
+            </div>
+          </div>
+        </a>
+        <a href="#blog3.html">
+          <div class="blogcontainer3">
+            <div class="blogimgcontainerleft">
+              <div>
+                <p class="date">05.16.23</p>
+                <h1> How Cameras Inspire and Empower Visual Artists</h1>
+                <p>Cameras are a crucial part of the visual arts industry, motivating and empowering artists. These
+                  tools let people express themselves, think creatively, and view the world in new ways. This article
+                  examines how cameras enable artists to realize their potential, see new opportunities, and impact
+                  society...</p>
+              </div>
+            </div>
+            <div class="blogimgcontainerright">
+              <img src="../Images/Blogs/camera creativity.jpg" alt="inspire artists">
+            </div>
+          </div>
+        </a>
+        <a href="#blog4.html">
+          <div class="blogcontainer4">
+            <div class="blogimgcontainerleft">
+              <div>
+                <p class="date">05.15.23</p>
+                <h1>Preserving Memories: Why Cameras are Remain Essential in Digital Age</h1>
+                <p>One can wonder whether standalone cameras are necessary in the modern digital era, where smartphones
+                  and social media rule our lives. But despite the ease of smartphone photography, cameras still play a
+                  vital role in keeping memories alive...</p>
+              </div>
+            </div>
+            <div class="blogimgcontainerright">
+              <img src="../Images/Blogs/memories.jpg" alt="Preserving Memories">
+            </div>
+          </div>
+        </a>
+
+      </div>
+
+
+
+    </div>
+
+
+  </main>
+  <!-- Footer content of the page -->
+
+  <footer>
+    <table border="0" width="100%">
+      <tr>
+        <th class="footerlogo">
+          <div>
+            <img src="../Images/LogoIcons/Logo.png" alt="Footer logo" />
+          </div>
+        </th>
+        <th>
+          <h1>Customer Service</h1>
+        </th>
+        <th>
+          <h1>Connect with us</h1>
+        </th>
+      </tr>
+
+      <tr>
+        <th>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#myaccount.html">Account</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="Research.html">Research</a></li>
+          </ul>
+        </th>
+
+        <th>
+          <div class="CustomerService">
+            <ul>
+              <li><a href="#" alt="Return Policy">Return Policy</a></li>
+              <li><a href="#" alt="Track Order">Track Order</a></li>
+              <li><a href="#" alt="Return Order">Return Order</a></li>
+            </ul>
+          </div>
+        </th>
+
+        <th>
+          <div class="Connectwithus">
+            <ul>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="../Images/LogoIcons/Facebook.svg"
+                    alt="facebook">
+                  <p> Facebook</p>
+                </a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="../Images/LogoIcons/Instagram.svg"
+                    alt="instagram">
+                  <p>Instagram</p>
+                </a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="../Images/LogoIcons/Twitter.svg"
+                    alt="twitter">
+                  <p>Twitter</p>
+                </a></li>
+              <li><a href="mailto:services@camskart.com?Subject=My%20Query"><img src="../Images/LogoIcons/mail.svg"
+                    alt="email">
+                  <p> Mail</p>
+                </a></li>
+            </ul>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <div style="filter: invert(1);">
+      <p style="text-align: right; padding-right:25px; font-size: 14px;">&copy;2023 All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+
+</html>

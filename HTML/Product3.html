@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product</title>
+  <!-- External Css Link -->
+  <link rel="stylesheet" href="../Css/Style.css" />
+  <!-- External Javascript link -->
+  <script src="../Javascript/javascript.js"></script>
+  <style>
+    .Pagecontent {
+      margin-top: 190px;
+      margin-bottom: 20px;
+      min-width: 100%;
+      min-height: 1950px;
+      background-color: #f2f2f2;
+      /*Please change the background color after use*/
+    }
+
+    .cameraDisplay {
+      box-sizing: border-box;
+      position: absolute;
+      width: 1700px;
+      height: 1800px;
+      left: 160px;
+      top: 260px;
+      padding-left: 15px;
+      background-color: white;
+      box-shadow: 0 3px 10px #00000033;
+      border-radius: 20px;
+    }
+
+    .cameraDisplay h1 {
+      font-size: 35px;
+      font-weight: bold;
+      margin: auto;
+      padding: 40px;
+    }
+
+    .cameraDisplay h1 a {
+      color: #0d0d0d;
+    }
+
+    .showmorecontainer1 {
+      position: absolute;
+      width: 350px;
+      height: 90px;
+      left: 800px;
+      top: 1700px;
+    }
+
+    .pagenoProduts a {
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      left: 60%;
+    }
+
+    .pagenoProduts a:hover {
+      text-decoration: none;
+      color: black;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Navigation bar for the bottom header-->
+    <nav class="bottom-nav">
+      <div class="fContainer">
+        <div class="fItem-1">
+          <div class="dropdown"><a href="Product.html">Product</a>
+            <button class="dropbtn"></button>
+
+            <div class="dropdown-content">
+              <a href="camera.html">Camera</a>
+              <a href="lens.html">Lens</a>
+              <a href="accessories.html">Accessories</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="fItem"><a href="Blog.html">Blog</a></div>
+        <div class="fItem"><a href="Aboutus.html">About Us</a></div>
+        <div class="fItem"><a href="Research.html">Research</a></div>
+      </div>
+    </nav>
+    <!--Navigation bar for top header-->
+    <nav class="top-nav">
+      <div class="HeaderLogo">
+        <a href="../index.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/Logo.png" alt="CamsKart" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <!--Inline css  Style to Align the Search text-->
+        <input type="text" placeholder="Search Camskart" style="text-align: center; padding-left: 35px" />
+        <!-- The button made to submit for the search products -->
+        <button type="submit">
+          <i class="search">
+            <!-- Search icon added to the search bar -->
+            <img src="../Images/LogoIcons/Search.png" alt="Search Icon" />
+          </i>
+        </button>
+      </div>
+      <!-- Division for the account login and signup icon -->
+      <div class="myaccount">
+        <a href="#myaccount.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/account.svg" alt="MyAccount" class="Navbaricon" />
+        </a>
+      </div>
+      <!-- Div class for the cart icon -->
+      <div class="mycart">
+        <a href="#mycart.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/cart.svg" alt="Cart" class="Navbaricon" />
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="Pagecontent">
+    <!-- Display of the camera content  -->
+    <div class="cameraDisplay">
+      <h1>Product</h1>
+      <a href="#camera1.html">
+        <div class="card1">
+          <div class="productimagecontainer"><img src="../Images/Products/Cameras/Camera Product card/f.jpg"
+              alt="camera i image"></div>
+          <h5 class="carddesc">Canon Eos 3000D 24.1Mp Digital Slr Camera + Ef-S
+            18-55Mm Lens (Black)<br>
+            <p class="price"> Rs.60,000 </p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera2.html">
+        <div class="card2">
+          <div class="productimagecontainer"><img src="../Images/Products/Cameras/Camera Product card/d.jpg"
+              alt="camera j image"></div>
+          <h5 class="carddesc">Nikon Coolpix P1000<br>
+            <p class="price">Rs.139,990</p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera3.html">
+        <div class="card3">
+          <div class="productimagecontainer"><img src="../Images/Products/Cameras/Camera Product card/k.jpg"
+              alt="camera k image"></div>
+          <h5 class="carddesc">Alpha 7 III - Full-frame Interchangeable Lens Camera 24.2MP, 10FPS, 4K/30p<br>
+            <p class="price">Rs.230,000</p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera4.html">
+        <div class="card4">
+          <div class="productimagecontainer"><img src="../Images/Products/Cameras/Camera Product card/l.jpg"
+              alt="camera l image"></div>
+          <h5 class="carddesc">Alpha 7 II - Full-frame Interchangeable Lens Camera 24.2MP, 5FPS, Full HD 1080p<br>
+            <p class="price">Rs.178,600 <del> Rs.190,000 </del> &nbsp;-6%</p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+
+      </a>
+      <a href="#camera5.html">
+        <div class="card5">
+          <div class="productimagecontainer"><img src="../Images/Products/Camera Lens/product card/d.jpg"
+              alt=" lens image"></div>
+          <h5 class="carddesc">SONY Mirrorless Camera Lens SEL35F18 E 35 mm F1.8 OSS<br>
+            <p class="price">Rs.54,000 </p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera6.html">
+        <div class="card6">
+          <div class="productimagecontainer"><img src="../Images/Products/Camera Lens/product card/j.jpg"
+              alt=" lens image"></div>
+          <h5 class="carddesc">Cannon EF-S 10-18mm f/4.5-5.6 IS STM<br>
+            <p class="price">Rs.33,990 <del> Rs.35,000 </del> &nbsp; -6%</p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera7.html">
+        <div class="card7">
+          <div class="productimagecontainer"><img src="../Images/Products/Camera Lens/product card/k.jpg"
+              alt=" lens image"></div>
+          <h5 class="carddesc">Nikon NIKKOR Z 24-50mm f/4-6.3 Lens<br>
+            <p class="price">Rs.46,990 </p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera8.html">
+        <div class="card8">
+          <div class="productimagecontainer"><img src="../Images/Products/Camera Lens/product card/l.jpg"
+              alt=" lens image"></div>
+          <h5 class="carddesc">Canon Macro Lens RF 85mm f/2.0 MACRO IS STM<br>
+            <p class="price">Rs.84,000 </p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera9.html">
+        <div class="card9">
+          <div class="productimagecontainer"><img
+              src="../Images/Products/Camera Accessories/Accessories Product card/e.jpg" alt=" Accessories image"></div>
+          <h5 class="carddesc">Peak Design Camera Clutch Hand Strap - Icefall Store<br>
+            <p class="price">Rs.9,900 <del> Rs.11,000 </del> &nbsp; -10%</p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera10.html">
+        <div class="card10">
+          <div class="productimagecontainer"><img
+              src="../Images/Products/Camera Accessories/Accessories Product card/f.jpg" alt=" Accessories image"></div>
+          <h5 class="carddesc">Peak Design Slide Camera Strap<br>
+            <p class="price">Rs.11,500 </p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera11.html">
+        <div class="card11">
+          <div class="productimagecontainer"><img
+              src="../Images/Products/Camera Accessories/Accessories Product card/g.jpg" alt=" Accessories image"></div>
+          <h5 class="carddesc">Peak Design Cuff V3 Camera Accessories Strap<br>
+            <p class="price">Rs.5,600 </p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <a href="#camera12.html">
+        <div class="card12">
+          <div class="productimagecontainer"><img
+              src="../Images/Products/Camera Accessories/Accessories Product card/h.jpg" alt=" Accessories image"></div>
+          <h5 class="carddesc">Pelican 1150<br>
+            <p class="price">Rs.8,500 </p>
+          </h5>
+          <div class="cartbutton"><button class="addtoCartButton">Add to cart</button></div>
+        </div>
+      </a>
+      <!-- Number to navigate to another product page -->
+      <div class="showmorecontainer1">
+        <p class="pagenoProduts"><a href="Product.html">1</a> &nbsp;&nbsp;&nbsp;&nbsp;<a href="Product2.html">2</a>
+          &nbsp;&nbsp;&nbsp; <a href="Product3.html">3</a></p>
+      </div>
+    </div>
+
+  </main>
+  <!-- Footer content of the page -->
+
+  <footer>
+    <table border="0" width="100%">
+      <tr>
+        <th class="footerlogo">
+          <div>
+            <img src="../Images/LogoIcons/Logo.png" alt="Footer logo" />
+          </div>
+        </th>
+        <th>
+          <h1>Customer Service</h1>
+        </th>
+        <th>
+          <h1>Connect with us</h1>
+        </th>
+      </tr>
+
+      <tr>
+        <th>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#myaccount.html">Account</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="Research.html">Research</a></li>
+          </ul>
+        </th>
+
+        <th>
+          <div class="CustomerService">
+            <ul>
+              <li><a href="#" alt="Return Policy">Return Policy</a></li>
+              <li><a href="#" alt="Track Order">Track Order</a></li>
+              <li><a href="#" alt="Return Order">Return Order</a></li>
+            </ul>
+          </div>
+        </th>
+
+        <th>
+          <div class="Connectwithus">
+            <ul>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="../Images/LogoIcons/Facebook.svg"
+                    alt="facebook">
+                  <p> Facebook</p>
+                </a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="../Images/LogoIcons/Instagram.svg"
+                    alt="instagram">
+                  <p>Instagram</p>
+                </a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="../Images/LogoIcons/Twitter.svg"
+                    alt="twitter">
+                  <p>Twitter</p>
+                </a></li>
+              <li><a href="mailto:services@camskart.com?Subject=My%20Query"><img src="../Images/LogoIcons/mail.svg"
+                    alt="email">
+                  <p> Mail</p>
+                </a></li>
+            </ul>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <div style="filter: invert(1);">
+      <p style="text-align: right; padding-right:25px; font-size: 14px;">&copy;2023 All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+</html>

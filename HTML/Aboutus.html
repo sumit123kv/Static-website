@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About Us</title>
+  <!-- External Css Link -->
+  <link rel="stylesheet" href="../Css/Style.css" />
+  <!-- External Javascript link -->
+  <script src="../Javascript/javascript.js"></script>
+  <style>
+    .title {
+      font-size: 48px;
+      text-align: center;
+    }
+
+    .content {
+      margin: 50px;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: 30px;
+      text-align: center;
+    }
+
+    .whitebg {
+      padding-top: 40px;
+      padding-bottom: 75px;
+      background-color: white;
+      border-radius: 20px;
+      position: relative;
+    }
+
+    .whitebg1 {
+
+      padding-top: 40px;
+      top: 30px;
+      padding-bottom: 75px;
+      height: 1150px;
+      background-color: white;
+      position: relative;
+      border-radius: 20px;
+    }
+
+    .title2 {
+      font-size: 48px;
+      padding-top: 30px;
+      text-align: center;
+      color: white;
+    }
+
+    .content2 {
+      margin: 0px;
+      padding-left: 100px;
+      padding-right: 100px;
+      font-size: 22px;
+      text-align: center;
+      color: white;
+      border-radius: 20px;
+      background-color: #0d0d0d;
+      height: 775px;
+    }
+
+    .content3 {
+      margin-top: 60px;
+      padding-top: 100px;
+      font-size: 30px;
+      text-align: center;
+      color: white;
+      border-radius: 20px;
+      width: 100%;
+      background-color: #0d0d0d;
+    }
+
+    .picture {
+      width: 217px;
+      border-radius: 20px;
+      height: 217px;
+      position: absolute;
+      transition: transform 0.4s ease;
+      /*effect for picture to slowly transition*/
+    }
+
+    .picture:hover {
+      transform: scale(1.1)
+    }
+
+    /*transformation effect*/
+    .link1 a:link {
+      color: white;
+    }
+
+    .link1 a:visited {
+      color: #BFBCBA;
+    }
+
+    .link1 a:hover {
+      color: white;
+    }
+
+    .link1 a:active {
+      color: #A8BFAE;
+    }
+
+    .link2 a:link {
+      color: #b22d2d;
+      font-weight: bold;
+    }
+
+    .slider
+
+    /*creating style for image slider*/
+      {
+      width: 100%;
+      height: 600px;
+      margin: 20px auto;
+      top: 600px;
+
+      padding-right: 250px;
+      /*
+      box-sizing property allows us to include the padding and border in an element's total width and height.
+      */
+      box-sizing: border-box;
+      /*The overflow is clipped, and the rest of the content will be invisible*/
+      overflow: hidden;
+
+    }
+
+    #imag {
+      text-align: center;
+
+      width: 100%;
+      height: 100%;
+    }
+
+    /*modifying various elements of a form*/
+    form {
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    input[type="text"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      border-radius: 20px;
+      box-sizing: border-box;
+      font-size: 30px;
+    }
+
+    input[type="submit"] {
+      width: 150px;
+      height: 50px;
+      background-color: white;
+      border-radius: 20px;
+      padding: 10px;
+      font-size: 20px;
+    }
+
+    input[type="submit"]:hover {
+      cursor: pointer;
+    }
+
+    input[type="radio"] {
+
+      transform: scale(2.0);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Navigation bar for the bottom header-->
+    <nav class="bottom-nav">
+      <div class="fContainer">
+        <div class="fItem-1">
+          <div class="dropdown"><a href="Product.html">Product</a>
+            <button class="dropbtn"></button>
+
+            <div class="dropdown-content">
+              <a href="camera.html">Camera</a>
+              <a href="lens.html">Lens</a>
+              <a href="accessories.html">Accessories</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="fItem"><a href="Blog.html">Blog</a></div>
+        <div class="fItem"><a href="Aboutus.html">About Us</a></div>
+        <div class="fItem"><a href="Research.html">Research</a></div>
+      </div>
+    </nav>
+    <!--Navigation bar for top header-->
+    <nav class="top-nav">
+      <div class="HeaderLogo">
+        <a href="../index.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/Logo.png" alt="CamsKart" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <!--Inline css  Style to Align the Search text-->
+        <input type="text" placeholder="Search Camskart" style="text-align: center; padding-left: 35px" />
+        <!-- The button made to submit for the search products -->
+        <button type="submit">
+          <i class="search">
+            <!-- Search icon added to the search bar -->
+            <img src="../Images/LogoIcons/Search.png" alt="Search Icon" />
+          </i>
+        </button>
+      </div>
+      <!-- Division for the account login and signup icon -->
+      <div class="myaccount">
+        <a href="#myaccount.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/account.svg" alt="MyAccount" class="Navbaricon" />
+        </a>
+      </div>
+      <!-- Div class for the cart icon -->
+      <div class="mycart">
+        <a href="#mycart.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/cart.svg" alt="Cart" class="Navbaricon" />
+        </a>
+      </div>
+    </nav>
+  </header>
+  <!--content after header and before footer-->
+  <main class="Pagecontentaboutus">
+    <div>
+      <!--About Us section-->
+      <div class="whitebg">
+        <h1 class="title">About Us</h1>
+        <p class="content">
+          At Cams Kart we are dedicated at providing you an expectational shopping experience with the best camera
+          products and accessories
+          at the best prices. Our team of top-notch innovators are constantly looking to create and improve technology
+          for your comfort and
+          desires. We understand that finding the perfect camera and camera equipment is crucial for capturing those
+          picture-perfect moments,
+          and that's why we offer a diverse range of quality products to cater to your specific requirements.Our wide
+          range of quality products
+          are sure to provide you with the perfect camera and camera equipment for you. Explore our extensive collection
+          and embark on an
+          exciting adventure in the world of photography with confidence and satisfaction.<br>
+          Your picture perfect journey starts here!
+        </p>
+      </div>
+      <!--Our Team section-->
+      <div class="content2">
+        <h1 class="title2">Our Team</h1>
+        <!--Picture and Caption of Team members-->
+        <div class="link1">
+          <div>
+            <a href="Portfolio_Sasha.html" target="_blank">
+              <img src="../Images/AboutUs/Sasha.jpg" alt="person 1" style="left: 430px; top: 925px;" class="picture">
+              <p style="position: absolute;left:480px; top:1135px;">Sasha Rai <br>COO</p>
+            </a>
+          </div>
+          <div>
+            <a href="Portfolio_Subigyan.html" target="_blank">
+              <img src="../Images/AboutUs/subigyan.jpg" alt="person 2" style="left:905px; top:925px;" class="picture">
+              <p style="position: absolute;left:930px; top:1135px;">Subigyan Paudel<br>CEO</p>
+            </a>
+          </div>
+          <div>
+            <a href="Portfolio_SumitS.html" target="_blank">
+              <img src="../Images/AboutUs/SumitS.png" alt="person 3" style="left: 1380px; top: 925px;" class="picture">
+              <p style="position: absolute;left:1415px; top:1135px;">Sumit Shrestha<br>CFO</p>
+            </a>
+          </div>
+          <div>
+            <a href="Portfolio_Shreya.html" target="_blank">
+              <img src="../Images/AboutUs/Shreya.jpg" alt="person 4" style="left: 660px; top:1255px;" class="picture">
+              <p style="position: absolute;left: 690px; top:1465px;">Shreya Dhakal<br>CMO</p>
+            </a>
+          </div>
+          <div>
+            <a href="Portfolio_SumitP.html" target="_blank">
+              <img src="../Images/AboutUs/sumitP.jpg" alt="person 5" style="left: 1150px; top: 1255px;" class="picture">
+              <p style="position: absolute;left:1190px; top:1465px;">Sumit Pokhrel<br>CTO</p>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!--Our Story section-->
+      <div class="whitebg1">
+        <h1 class="title">Our Story</h1>
+        <!--Adding slider-->
+        <div class="slider">
+          <div id="imag">
+            <img src="../Images/AboutUs/slider1.jpg">
+          </div>
+        </div>
+        <div>
+          <p class="content">
+            Our story begins with a group of photo-loving friends who shared a common belief in the power of capturing
+            memories and sharing stories through pictures. United by
+            our passion, we embarked on a journey to create a small business dedicated to selling cameras and preserving
+            cherished moments.<br><br>
+            Over the years, our humble venture has blossomed into its own distinguished brand, driven by our unwavering
+            commitment to delivering superior quality images and
+            enabling people to create lasting memories. Through continuous innovation, we have embraced technological
+            advancements to offer cutting-edge camera products and
+            accessories that meet the evolving needs of our customers. <br><br>
+            To keep up-to-date with us as we extend our reach further, check out our <a href="Blog.html"
+              class="link2">blog page</a>.
+          </p>
+        </div>
+      </div>
+      <!--JS for image slider-->
+      <script>
+        var images = ['../Images/AboutUs/slider1.jpg', '../Images/AboutUs/slider2.jpg', '../Images/AboutUs/slider3.jpg', '../Images/AboutUs/slider4.jpg'];
+
+        var x = 0;
+        var imagElement = document.getElementById('imag');
+        //The setInterval() calls a function at theintervals (in milliseconds). 
+        setInterval(slider, 3000);
+
+        function slider() {
+
+          if (x < images.length) {
+            x = x + 1;
+          }
+
+          else {
+            x = 1;
+          }
+
+
+          imagElement.innerHTML = "<img src=" + images[x - 1] + ">";
+        }
+      </script>
+      <!--Contact Us section-->
+      <div class="content3">
+        <h1 class="title2">Contact Us</h1>
+        <p class="content3">We value your feedback, complaints and queries. Please write us your thoughts below.</p>
+        <!--Feedback form-->
+        <section>
+          <form name="feedbackForm" onsubmit="validateForm()">
+            <p>Name: <input type="text" name="name"></p>
+            <p>Email: <input type="text" name="mail"></p>
+            <p>Gender: <input type="radio" name="gender" value="male" checked> Male
+              <input type="radio" name="gender" value="female"> Female
+              <input type="radio" name="gender" value="other"> Other<br>
+            </p>
+            <p>Message: <br> <textarea name="message" rows="10" columns="20" placeholder="Please type here"></textarea>
+            </p>
+            <p><input type="submit" value="Submit"></p>
+          </form>
+          <br> <br>
+          <script>
+            function validateForm() {
+              var name = document.forms["feedbackForm"]["name"].value;
+              var mail = document.forms["feedbackForm"]["mail"].value;
+              var gender = document.forms["feedbackForm"]["gender"].value;
+              var message = document.forms["feedbackForm"]["message"].value;
+
+              if (name == "" || mail == "" || message == "") {
+                alert("Please fill all fields");
+              }
+              else {
+                alert("Thank you for your feedback!");
+              }
+            }
+          </script>
+        </section>
+      </div>
+    </div>
+    <!--JS for form validation-->
+
+  </main>
+  <!-- Footer content of the page -->
+
+  <footer>
+    <table border="0" width="100%">
+      <tr>
+        <th class="footerlogo">
+          <div>
+            <img src="../Images/LogoIcons/Logo.png" alt="Footer logo" />
+          </div>
+        </th>
+        <th>
+          <h1>Customer Service</h1>
+        </th>
+        <th>
+          <h1>Connect with us</h1>
+        </th>
+      </tr>
+
+      <tr>
+        <th>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#myaccount.html">Account</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="Research.html">Research</a></li>
+          </ul>
+        </th>
+
+        <th>
+          <div class="CustomerService">
+            <ul>
+              <li><a href="#" alt="Return Policy">Return Policy</a></li>
+              <li><a href="#" alt="Track Order">Track Order</a></li>
+              <li><a href="#" alt="Return Order">Return Order</a></li>
+            </ul>
+          </div>
+        </th>
+
+        <th>
+          <div class="Connectwithus">
+            <ul>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="../Images/LogoIcons/Facebook.svg"
+                    alt="facebook">
+                  <p> Facebook</p>
+                </a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="../Images/LogoIcons/Instagram.svg"
+                    alt="instagram">
+                  <p>Instagram</p>
+                </a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="../Images/LogoIcons/Twitter.svg"
+                    alt="twitter">
+                  <p>Twitter</p>
+                </a></li>
+              <li><a href="mailto:services@camskart.com?Subject=My%20Query"><img src="../Images/LogoIcons/mail.svg"
+                    alt="email">
+                  <p> Mail</p>
+                </a></li>
+            </ul>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <div style="filter: invert(1);">
+      <p style="text-align: right; padding-right:25px; font-size: 14px;">&copy;2023 All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+
+</html>

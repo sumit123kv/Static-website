@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Subigyan Paudel Portfolio</title>
+  <!-- External Css Link -->
+  <link rel="stylesheet" href="../Css/Style.css" />
+  <!-- External Javascript link -->
+  <script src="../Javascript/javascript.js"></script>
+  <style>
+    /* Overrides the pagecontent css from css.style */
+    .Pagecontent {
+      margin-top: 190px;
+      margin-bottom: 20px;
+      min-width: 100%;
+      min-height: 1400px;
+      background-color: #f2f2f2;
+      /*Please change the background color after use*/
+    }
+
+    /*creating container for flex*/
+    .container {
+      display: flex;
+      min-height: 1000px;
+    }
+
+    .leftcolumn {
+      flex: 75%;
+      background-color: white;
+      padding: 15px;
+      padding-right: 25px;
+
+    }
+
+    .rightcolumn {
+      margin: 10px;
+      flex: 25%;
+      text-align: center;
+      color: black;
+      margin: 30px;
+      font-size: 30px;
+    }
+
+    .leftcolumn,
+    .left2 {
+      font-size: 30px;
+    }
+
+    .titleRight,
+    .titleLeft {
+      font-size: 48px;
+      text-align: center
+    }
+
+    .title2 {
+
+      font-size: 48px;
+    }
+
+    .left2 {
+      background-color: #D7AAAA;
+      padding: 15px;
+      padding-right: 25px;
+    }
+
+    .picture {
+      width: 217px;
+      height: 217px;
+      border-radius: 20px;
+
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <!-- Navigation bar for the bottom header-->
+    <nav class="bottom-nav">
+      <div class="fContainer">
+        <div class="fItem-1">
+          <div class="dropdown"><a href="Product.html">Product</a>
+            <button class="dropbtn"></button>
+
+            <div class="dropdown-content">
+              <a href="camera.html">Camera</a>
+              <a href="lens.html">Lens</a>
+              <a href="accessories.html">Accessories</a>
+            </div>
+
+          </div>
+        </div>
+        <div class="fItem"><a href="Blog.html">Blog</a></div>
+        <div class="fItem"><a href="Aboutus.html">About Us</a></div>
+        <div class="fItem"><a href="Research.html">Research</a></div>
+      </div>
+    </nav>
+    <!--Navigation bar for top header-->
+    <nav class="top-nav">
+      <div class="HeaderLogo">
+        <a href="../index.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/Logo.png" alt="CamsKart" />
+        </a>
+      </div>
+      <div class="search-bar">
+        <!--Inline css  Style to Align the Search text-->
+        <input type="text" placeholder="Search Camskart" style="text-align: center; padding-left: 35px" />
+        <!-- The button made to submit for the search products -->
+        <button type="submit">
+          <i class="search">
+            <!-- Search icon added to the search bar -->
+            <img src="../Images/LogoIcons/Search.png" alt="Search Icon" />
+          </i>
+        </button>
+      </div>
+      <!-- Division for the account login and signup icon -->
+      <div class="myaccount">
+        <a href="#myaccount.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/account.svg" alt="MyAccount" class="Navbaricon" />
+        </a>
+      </div>
+      <!-- Div class for the cart icon -->
+      <div class="mycart">
+        <a href="#mycart.html">
+          <!--Loads the images to the navigation-->
+          <img src="../Images/LogoIcons/cart.svg" alt="Cart" class="Navbaricon" />
+        </a>
+      </div>
+    </nav>
+  </header>
+  <!--Main page content-->
+  <main class="Pagecontent">
+    <div class="container">
+      <!---Left side of the page-->
+      <div class="leftcolumn">
+        <h1 class="titleRight">Portfolio</h1>
+        <div>
+          <h3 class="title2">Introduction</h3>
+          <p> I am knowledgeable candidate in user interface, testing, and debugging processes. Expertise in design,
+            installation, testing and maintenance of web and application systems. Proficient in various platforms and
+            programming language and graphics design. Able to effectively self-manage during independent projects, as
+            well as collaborate in a team setting. Committed to utilizing my skills and bringing forth a motivated
+            attitude to further the mission of this company.</p> <!--write your introduction here-->
+        </div>
+        <div class="left2">
+          <h3 class="title2">Experience</h3><!--write work related experience here-->
+          <table border="0" width="100%">
+            <tr>
+              <td colspan="2">
+                Cams Kart<br>
+                Chief Executive Officer(CEO)
+              </td>
+
+              <td>2023-Present</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <br>
+                Harin Nepal<br>
+                Graphics Designer
+              </td>
+
+              <td>2020-present</td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <br>
+                Citrana Creatives<br>
+                Graphics Designer
+              </td>
+
+              <td>2020-2023</td>
+            </tr>
+
+          </table>
+        </div>
+        <div>
+          <h3 class="title2">Skills</h3><!---write what skills you have-->
+
+          <table border="0" width="100%">
+            <tr>
+              <td colspan="2">
+                <ul style="list-style: disc;">
+                  <li>Graphics Design</li><br>
+                  <li>Unity Engine</li><br>
+                  <li>Blender</li><br>
+                  <li>Java Programming</li><br>
+                  <li>HTML, CSS and Javascript</li><br>
+
+                </ul>
+              </td>
+
+              <td>
+                <ul style="list-style: disc;">
+                  <li>Adobe Illustrator</li><br>
+                  <li>Unreal Engine</li><br>
+                  <li>Figma</li><br>
+                  <li>Photoshop</li><br>
+                  <li>C++ Programming language</li><br>
+
+                </ul>
+              </td>
+            </tr>
+
+
+          </table>
+        </div>
+      </div>
+      <!---Right side of the page-->
+      <div class="rightcolumn">
+        <div>
+          <img src="../Images/AboutUs/subigyan.jpg" alt="PictureOfPerson" class="picture">
+        </div>
+        <div>
+          <h1 class="titleRight">Subigyan Paudel</h1> <!--write your full name-->
+          <p>
+            <b> CEO </b><br><br>
+            BSc.(Hons)Computing<br><br>
+            Bashundhara,<br>Kathmandu,Nepal.<br><br> <!---write your address (just the city)-->
+            poudelsubigyan73@gmail.com<br><br> <!--write your email-->
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer content of the page -->
+  <footer>
+    <table border="0" width="100%">
+      <tr>
+        <th class="footerlogo">
+          <div>
+            <img src="../Images/LogoIcons/Logo.png" alt="Footer logo" />
+          </div>
+        </th>
+        <th>
+          <h1>Customer Service</h1>
+        </th>
+        <th>
+          <h1>Connect with us</h1>
+        </th>
+      </tr>
+
+      <tr>
+        <th>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#myaccount.html">Account</a></li>
+            <li><a href="Product.html">Product</a></li>
+            <li><a href="Blog.html">Blog</a></li>
+            <li><a href="Aboutus.html">About us</a></li>
+            <li><a href="Research.html">Research</a></li>
+          </ul>
+        </th>
+
+        <th>
+          <div class="CustomerService">
+            <ul>
+              <li><a href="#" alt="Return Policy">Return Policy</a></li>
+              <li><a href="#" alt="Track Order">Track Order</a></li>
+              <li><a href="#" alt="Return Order">Return Order</a></li>
+            </ul>
+          </div>
+        </th>
+
+        <th>
+          <div class="Connectwithus">
+            <ul>
+              <li><a href="https://www.facebook.com" target="_blank"><img src="../Images/LogoIcons/Facebook.svg"
+                    alt="facebook">
+                  <p> Facebook</p>
+                </a></li>
+              <li><a href="https://www.instagram.com" target="_blank"><img src="../Images/LogoIcons/Instagram.svg"
+                    alt="instagram">
+                  <p>Instagram</p>
+                </a></li>
+              <li><a href="https://www.twitter.com" target="_blank"><img src="../Images/LogoIcons/Twitter.svg"
+                    alt="twitter">
+                  <p>Twitter</p>
+                </a></li>
+              <li><a href="mailto:services@camskart.com?Subject=My%20Query"><img src="../Images/LogoIcons/mail.svg"
+                    alt="email">
+                  <p> Mail</p>
+                </a></li>
+            </ul>
+          </div>
+        </th>
+      </tr>
+    </table>
+    <div style="filter: invert(1);">
+      <p style="text-align: right; padding-right:25px; font-size: 14px;">&copy;2023 All Rights Reserved</p>
+    </div>
+  </footer>
+</body>
+
+</html>
